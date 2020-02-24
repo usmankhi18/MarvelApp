@@ -1,0 +1,26 @@
+<!--
+  Generated template for the CharacterDetailPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>{{selectedItem.CharacterName}}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <img src="{{selectedItem.CharacterLogo}}">
+  <!-- <h4>IMDB Rating:</h4>
+  <div>{{selectedItem.MovieRating}}
+    <ion-icon name="star"></ion-icon>
+  </div>
+  <h4>Plot:</h4>
+  <em><p style="text-align: left;" [innerHTML]="text"></p></em> -->
+  <button ion-button color="secondary" (click)=movies() round full>{{selectedItem.CharacterName}} Movies</button>
+</ion-content>

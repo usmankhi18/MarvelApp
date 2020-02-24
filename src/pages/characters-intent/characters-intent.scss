@@ -1,0 +1,24 @@
+page-characters-intent {
+    .content-md {
+        color: #fff;
+        background-color: map-get($colors, primary);
+    }
+    .content-ios{
+        color: #fff;
+        background-color: map-get($colors, primary);
+    }
+    .toolbar-title-ios {
+        color: map-get($colors, primary);
+    }
+    .toolbar-title-md {
+        color: map-get($colors, primary);
+    }
+    .list .item {
+        background-color: map-get($colors, primary);
+        color: #fff;
+      }
+      
+      .list {
+        margin-top:0%;
+      }
+}

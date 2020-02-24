@@ -1,0 +1,30 @@
+<!--
+  Generated template for the SeriesPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Marvel Series</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+    <ion-list [virtualScroll]="countries" [approxItemHeight]="'50px'">
+        <ion-item *virtualItem="let c" (click)="itemTapped(c)">
+        <ion-avatar item-left>
+        <img src="{{c.SeriesLogo}}">
+      </ion-avatar>
+          <div style="clear: both">
+              <h2 style="float: left">{{c.SeriesName}}</h2>
+              <h3 style="float: right">{{c.SeriesCount}}</h3>
+          </div>
+        </ion-item>
+      </ion-list>
+
+</ion-content>

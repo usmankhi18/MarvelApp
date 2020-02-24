@@ -1,0 +1,32 @@
+page-character-detail {
+        .content-md {
+            color: #fff;
+            background-color: map-get($colors, primary);
+            text-align: center;
+        }
+        .content-ios{
+            color: #fff;
+            background-color: map-get($colors, primary);
+            text-align: center;
+        }
+        .toolbar-title-ios {
+            color: map-get($colors, primary);
+        }
+        .toolbar-title-md {
+            color: map-get($colors, primary);
+        }
+        img {
+            max-width: 100%;
+            border: 0;
+            margin-top: 20px;
+            display: block;
+            height: 350px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        h4 {
+            font-size: 2rem;
+            text-align: center;
+        }
+    
+}
